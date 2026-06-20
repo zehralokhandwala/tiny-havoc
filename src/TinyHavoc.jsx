@@ -1513,9 +1513,9 @@ const CSS = `
 `;
 
 /* ---------------- sound: a sample-based engine ----------------
-   Plays the project's own recordings (in /sounds): two looping ambient beds that
-   cross-fade between modes, plus a short clip per material on placement. Lazily
-   started on the first user gesture, with a mute toggle. */
+   Plays the project's own recordings (in /sounds): a short clip per material on
+   placement, plus a dedicated cue on each Build/Destroy switch. Lazily started on
+   the first user gesture, with a mute toggle. */
 const SOUND_URLS = (() => {
   const all = import.meta.glob('../sounds/**/*.{mp3,m4a}', { eager: true, query: '?url', import: 'default' });
   const map = {};
