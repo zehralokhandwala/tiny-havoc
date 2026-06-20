@@ -2,6 +2,8 @@
 
 **A tiny living world you grow — then take apart.**
 
+▶ **[Play it live](https://zehralokhandwala.github.io/tiny-havoc/)**
+
 Tiny Havoc is a browser-based falling-sand / cellular-automata sandbox with two
 moods. In **Build**, you grow a calm little ecosystem of soil, water, and life;
 plants sprout and flower when watered, vines spread on their own. Flip to
